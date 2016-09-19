@@ -43,14 +43,42 @@ angular.module('starter.controllers', [])
 
 .controller('PlaylistsCtrl', function($scope) {
   $scope.playlists = [
-    { title: 'Reggae', id: 1 },
-    { title: 'Chill', id: 2 },
-    { title: 'Dubstep', id: 3 },
-    { title: 'Indie', id: 4 },
-    { title: 'Rap', id: 5 },
-    { title: 'Cowbell', id: 6 }
+    { title: 'AlfaRomeo', id: 1},
+    { title: 'Audi', id: 2},
+    { title: 'Chevrolet', id: 3},
+    { title: 'Fiat', id: 4},
+    { title: 'Ford', id: 5},
+    { title: 'Volkswagen', id: 6}
   ];
 })
 
 .controller('PlaylistCtrl', function($scope, $stateParams) {
+    
+    $scope.models=[
+        {     
+     "names":[
+         {"modelo":"Alfa z<sd", "codigo":"4"},
+         {"modelo":"Alfa asdas", "codigo":"5"},
+         {"modelo":"Alfa asdasd ", "codigo":"6"},
+     ] },{
+     "names":[
+         {"modelo":"Alfa 1", "codigo":"4"},
+         {"modelo":"Alfa 2", "codigo":"5"},
+         {"modelo":"Alfa 3", "codigo":"6"},
+     ]
+    },
+    {
+    "names":[
+         {"modelo":"A3", "codigo":"7"},
+         {"modelo":"A4", "codigo":"8"},
+         {"modelo":"A5", "codigo":"9"},
+     ]
+    }  
+    ];
+    
+    $scope.number=$stateParams.playlistId;
+    
+    $scope.modelos=$scope.models[$scope.number];
+    console.log($scope.modelos);
+    
 });
