@@ -1,4 +1,4 @@
-<ion-view view-title="Playlists">
+<ion-view view-title="Marcas">
   <ion-content>
     <ion-list>
       <ion-item ng-repeat="playlist in playlists" href="#/app/playlists/{{playlist.id}}">
@@ -6,4 +6,9 @@
       </ion-item>
     </ion-list>
   </ion-content>
+    
+    <div class="bar bar-footer">
+      <button class="button icon-left ion-star button-positive">Favorites</button>
+    </div>
+
 </ion-view>

@@ -62,16 +62,16 @@ angular.module('starter.controllers', [])
          {"modelo":"Alfa asdasd ", "codigo":"6"},
      ] },{
      "names":[
-         {"modelo":"Alfa 1", "codigo":"4"},
-         {"modelo":"Alfa 2", "codigo":"5"},
-         {"modelo":"Alfa 3", "codigo":"6"},
+         {"modelo":"GT 3.2 JTS V6 - Mot.939A.000-3195cc-191KW/260HP", "codigo":"CA5612"},
+         {"modelo":"MiTo 1.4 TB QV - Mot.955A8.000-125KW/170HP", "codigo":"CA9943"},
+         {"modelo":"Spider 3.0 V6 - Mot.AR16101-2959cc-141KW/192HP", "codigo":"CA5612"},
      ]
     },
     {
     "names":[
-         {"modelo":"A3", "codigo":"7"},
-         {"modelo":"A4", "codigo":"8"},
-         {"modelo":"A5", "codigo":"9"},
+         {"modelo":"A1 1.4T Fsi Sline - Mot.CAVA-1390cc-136KW/185HP", "codigo":"CA9711"},
+         {"modelo":"A3 2.0 Fsi - Mot.BVZ-1984cc-110KW/150HP", "codigo":"CA9800"},
+         {"modelo":"Q7 4.2 V8 Fsi - Mot.BNS-4163cc-246KW/335HP", "codigo":"CA10236"},
      ]
     }  
     ];
